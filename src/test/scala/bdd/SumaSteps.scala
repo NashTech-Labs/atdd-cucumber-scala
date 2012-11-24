@@ -5,7 +5,7 @@ import org.scalatest.matchers.ShouldMatchers
 import cucumber.runtime.PendingException
 import collection.mutable
 
-class SumaCucumberSteps extends ScalaDsl with CA with ShouldMatchers {
+class SumaSteps extends ScalaDsl with CA with ShouldMatchers {
 
   var valors = mutable.MutableList[Int]()
   var resultat = 0
